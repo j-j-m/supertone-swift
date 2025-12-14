@@ -32,12 +32,12 @@ let package = Package(
         .binaryTarget(
             name: "onnxruntime",
             url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.1-onnx/onnxruntime-c-1.20.0.zip",
-            checksum: "bb4ef09277e40d68076fbc71da69048c6a1015e283a61ddde3d1ab759cd91dfb"
+            checksum: "ec5d136ba6ad97f22db899cb2e707eea8a009f606e6b4a1ed6594237edb334dd"
         ),
         .binaryTarget(
             name: "onnxruntime_extensions",
             url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.1-onnx/onnxruntime-extensions-c-0.13.0.zip",
-            checksum: "164bb004bd2e2df73250f23aa1b0871efe69b3113874c0115b8497c3dc8aa4ea"
+            checksum: "6763bb53e3db4533e87e8cf031ea05711450eee3f9d3a5a4de6ddce919782110"
         ),
 
         // ONNX Runtime Objective-C++ bindings
