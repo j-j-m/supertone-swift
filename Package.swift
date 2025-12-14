@@ -10,7 +10,8 @@ let swiftSettings: [SwiftSetting] = [
 let package = Package(
     name: "Supertone",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v13),
+        .iOS(.v15)
     ],
     products: [
         .library(
