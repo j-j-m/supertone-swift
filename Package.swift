@@ -11,7 +11,7 @@ let package = Package(
     name: "Supertone",
     platforms: [
         .macOS(.v13),
-        .iOS(.v15)
+        .iOS(.v16)
     ],
     products: [
         .library(
