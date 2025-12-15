@@ -31,13 +31,13 @@ let package = Package(
         // ONNX Runtime binary - hosted on GitHub Releases for Xcode Cloud compatibility
         .binaryTarget(
             name: "onnxruntime",
-            url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.1-onnx/onnxruntime-c-1.20.0.zip",
-            checksum: "ec5d136ba6ad97f22db899cb2e707eea8a009f606e6b4a1ed6594237edb334dd"
+            url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.2-onnx/onnxruntime-c-1.20.0.zip",
+            checksum: "b1504f0b6a770465f0a3a1a1c3622f4d7a35eeb9a8b75f5651fa92804d32aa4c"
         ),
         .binaryTarget(
             name: "onnxruntime_extensions",
-            url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.1-onnx/onnxruntime-extensions-c-0.13.0.zip",
-            checksum: "6763bb53e3db4533e87e8cf031ea05711450eee3f9d3a5a4de6ddce919782110"
+            url: "https://github.com/j-j-m/supertone-swift/releases/download/v1.0.2-onnx/onnxruntime-extensions-c-0.13.0.zip",
+            checksum: "2284dc79bbaa9a2e21d7565df675f2cc381516b89bffcadbae31209b328b5f7b"
         ),
 
         // ONNX Runtime Objective-C++ bindings
